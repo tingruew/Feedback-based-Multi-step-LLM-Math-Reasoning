@@ -17,8 +17,20 @@ Detailed information can be found in our [survey paper](https://arxiv.org/pdf/25
 ## Table of Contents
 - [Background in LLM Multi-step Reasoning](#background-in-llm-multi-step-reasoning)
 - [Papers](#papers)
-  - [Step-level Feedback](#step-level-feedback)
-    - [Aggregation](#aggregation)
+  - [Training-based Approaches](#training-based-approaches)
+    - [Step-level Feedback](#step-level-feedback)
+      - [Aggregation](#aggregation)
+      - [Search](#search)
+      - [Refinement](#refinement)
+    - [Outcome-level Feedback](#outcome-level-feedback)
+      - [Discriminative Outcome Reward Model](#discriminative-outcome-reward-model)
+      - [Generative Outcome Reward Model](#generative-outcome-reward-model)
+      - [Rule-based](#rule-based)
+    - [Step- and Outcome-level Feedback](#step--and-outcome-level-feedback)
+  - [Training-free Approaches](#training-free-approaches)
+    - [Evaluate by LLM Response](#evaluate-by-llm-response)
+    - [Evaluate by LLM Logits](#evaluate-by-llm-logits)
+    - [Evaluate by External Tools](#evaluate-by-external-tools)
 
 ---
 
@@ -34,11 +46,11 @@ Detailed information can be found in our [survey paper](https://arxiv.org/pdf/25
 
 ## Papers
 
-### Training-based
+### Training-based Approaches
 
 #### Step-level Feedback
 
-- #### **Aggregation**
+- #### Aggregation
   
 |Title | Venue | Main Image | Paper|
 | :--- | :--: | :---: | :---: |
@@ -58,7 +70,7 @@ Detailed information can be found in our [survey paper](https://arxiv.org/pdf/25
 |Process Reward Model with Q-Value Rankings| ICLR 2025 | <img width="1200" alt="image" src="images/aggregation/process.png"> | [Link](https://arxiv.org/pdf/2410.11287)|
 |Entropy-Regularized Process Reward Model| Arxiv 2024 | <img width="1200" alt="image" src="images/aggregation/entropy-regularized.png"> | [Link](https://arxiv.org/pdf/2412.11006)|
 
-- #### **Search**
+- #### Search
   
 |Title | Venue | Main Image | Paper|
 | :--- | :--: | :---: | :---: |
@@ -74,7 +86,7 @@ Detailed information can be found in our [survey paper](https://arxiv.org/pdf/25
 |AlphaMath Almost Zero: Process Supervision without Process| NeurIPS 2024 | <img width="1200" alt="image" src="images/search/alphamath.png"> | [Link](https://arxiv.org/pdf/2405.03553)|
 |Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters| Arxiv 2024 | <img width="1200" alt="image" src="images/search/scaling.png"> | [Link](https://arxiv.org/pdf/2408.03314)|
 
-- #### **Refinement**
+- #### Refinement
   
 |Title | Venue | Main Image | Paper|
 | :--- | :--: | :---: | :---: |
@@ -94,7 +106,7 @@ Detailed information can be found in our [survey paper](https://arxiv.org/pdf/25
 
 #### Outcome-level Feedback
 
-- #### **Discriminative Outcome Reward Model**
+- #### Discriminative Outcome Reward Model
   
 |Title | Venue | Main Image | Paper|
 | :--- | :--: | :---: | :---: |
@@ -107,7 +119,7 @@ Detailed information can be found in our [survey paper](https://arxiv.org/pdf/25
 |Alphazero-like Tree-Search can Guide Large Language Model Decoding and Training| Arxiv 2024 | <img width="1200" alt="image" src="images/discriminative/alphazero-like.png"> | [Link](https://arxiv.org/pdf/2309.17179) |
 |GraphReason: Enhancing Reasoning Capabilities of Large Language Models through A Graph-Based Verification Approach| NLRSE 2024 | <img width="1200" alt="image" src="images/discriminative/graphreason.png"> | [Link](https://aclanthology.org/2024.nlrse-1.1.pdf) |
 
-- #### **Generative Outcome Reward Model**
+- #### Generative Outcome Reward Model
   
 |Title | Venue | Main Image | Paper|
 | :--- | :--: | :---: | :---: |
@@ -121,9 +133,48 @@ Detailed information can be found in our [survey paper](https://arxiv.org/pdf/25
 |DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models| Arxiv 2024 | <img width="1200" alt="image" src="images/rule-based/deepseekmath.png"> | [Link](https://arxiv.org/pdf/2402.03300) |
 |DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning| Arxiv 2025 | <img width="1200" alt="image" src="images/rule-based/deepseekr1.png"> | [Link](https://arxiv.org/pdf/2501.12948) |
 
+---
+
 #### Step- and Outcome-level Feedback
 
 |Title | Venue | Main Image | Paper|
 | :--- | :--: | :---: | :---: |
 | Solving Math Word Problems via Cooperative Reasoning induced Language Models | ACL 2023 | <img width="1200" alt="image" src="images/stepandoutcome/solving.png"> | [Link](https://aclanthology.org/2023.acl-long.245.pdf) |
 | Rewarding Progress: Scaling Automated Process Verifiers for LLM Reasoning | ICLR 2025 | <img width="1200" alt="image" src="images/stepandoutcome/rewarding.png"> | [Link](https://arxiv.org/pdf/2410.08146)
+
+---
+
+### Training-free Approaches
+
+#### Evaluate by LLM Response
+
+|Title | Venue | Main Image | Paper|
+| :--- | :--: | :---: | :---: |
+| Self-Evaluation Guided Beam Search for Reasoning | NeurIPS 2023 | <img width="1200" alt="image" src="images/response/self-evaluation.png"> | [Link](https://proceedings.neurips.cc/paper_files/paper/2023/file/81fde95c4dc79188a69ce5b24d63010b-Paper-Conference.pdf) |
+| Deductive Verification of Chain-of-Thought Reasoning | NeurIPS 2023 | <img width="1200" alt="image" src="images/response/deductive.png"> | [Link](https://proceedings.neurips.cc/paper_files/paper/2023/file/72393bd47a35f5b3bee4c609e7bba733-Supplemental-Conference.pdf) |
+| Enhancing Zero-Shot Chain-of-Thought Reasoning in Large Language Models through Logic | LREC 2024 | <img width="1200" alt="image" src="images/response/enhancing.png"> | [Link](https://aclanthology.org/2024.lrec-main.543.pdf) |
+| CoT Rerailer: Enhancing the Reliability of Large Language Models in Complex Reasoning Tasks through Error Detection and Correction | Arxiv 2024 | <img width="1200" alt="image" src="images/response/cot.png"> | [Link](https://arxiv.org/pdf/2408.13940) |
+| SelfCheck: Using LLMs to Zero-Shot Check Their Own Step-by-Step Reasoning | ICLR 2024 | <img width="1200" alt="image" src="images/response/selfcheck.png"> | [Link](https://openreview.net/pdf?id=pTHfApDakA) |
+| Stepwise Self-Consistent Mathematical Reasoning with Large Language Models | Arxiv 2024 | <img width="1200" alt="image" src="images/response/stepwise.png"> | [Link](https://arxiv.org/pdf/2402.17786) |
+
+---
+
+#### Evaluate by LLM Logits
+
+|Title | Venue | Main Image | Paper|
+| :--- | :--: | :---: | :---: |
+| General Purpose Verification for Chain of Thought Prompting | Arxiv 2024 | <img width="1200" alt="image" src="images/logits/general.png"> | [Link](https://arxiv.org/pdf/2405.00204) |
+| PathFinder: Guided Search over Multi-Step Reasoning Paths | NeurIPS 2023 | <img width="1200" alt="image" src="images/logits/pathfinder.png"> | [Link](https://arxiv.org/pdf/2312.05180) |
+| Learning From Correctness Without Prompting Makes LLM Efficient Reasoner | COLM 2024 | <img width="1200" alt="image" src="images/logits/learning.png"> | [Link](https://openreview.net/pdf?id=dcbNzhVVQj) |
+| Reasoning with Language Model is Planning with World Model | EMNLP 2023 | <img width="1200" alt="image" src="images/logits/reasoning.png"> | [Link](https://aclanthology.org/2023.emnlp-main.507.pdf) |
+| TreeBoN: Enhancing Inference-Time Alignment with Speculative Tree-Search and Best-of-N Sampling | Arxiv 2024 | <img width="1200" alt="image" src="images/logits/treebon.png"> | [Link](https://arxiv.org/pdf/2410.16033) |
+| Reasoning in Flux: Enhancing Large Language Models Reasoning through Uncertainty-aware Adaptive Guidance | ACL 2024 | <img width="1200" alt="image" src="images/logits/flux.png"> | [Link](https://aclanthology.org/2024.acl-long.131.pdf) |
+
+---
+
+#### Evaluate by External Tools
+
+|Title | Venue | Main Image | Paper|
+| :--- | :--: | :---: | :---: |
+| MathDivide: Improved mathematical reasoning by large language models | Arxiv 2024 | <img width="1200" alt="image" src="images/tool/mathdivide.png"> | [Link](https://arxiv.org/pdf/2405.13004) |
+| Don't Trust: Verify -- Grounding LLM Quantitative Reasoning with Autoformalization | ICLR 2024 | <img width="1200" alt="image" src="images/tool/dont.png"> | [Link](https://openreview.net/pdf?id=V5tdi14ple) |
