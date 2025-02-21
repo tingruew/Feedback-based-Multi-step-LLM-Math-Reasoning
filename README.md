@@ -4,17 +4,26 @@ A survey of multi-step reasoning in large language models for math.
 
 ![](images/taxonomy.png)
 
-Detailed information can be found in our survey paper.
+Detailed information can be found in our [survey paper](https://arxiv.org/pdf/2502.14333).
 
+```Bibtex
+@article{wei2025survey,
+  title={A Survey on Feedback-based Multi-step Reasoning for Large Language Models on Mathematics},
+  author={Wei, Ting-Ruen and Liu, Haowei and Wu, Xuyang and Fang, Yi},
+  journal={arXiv preprint arXiv:2502.14333},
+  year={2025}
+}
+```
 ## Table of Contents
 - [Background in LLM Multi-step Reasoning](#background-in-llm-multi-step-reasoning)
 - [Papers](#papers)
-  -   [Collaborative Filtering](#collaborative-filtering)
+  - [Step-level Feedback](#step-level-feedback)
+    - [Aggregation](#aggregation)
 
 ---
 
 ### Background in LLM Multi-step Reasoning
-- [Deep Unsupervised Learning using Nonequilibrium Thermodynamics](https://arxiv.org/abs/1503.03585)
+- [Self-Consistency Improves Chain of Thought Reasoning in Language Models](https://arxiv.org/pdf/2203.11171)
 
 ---
 
@@ -24,7 +33,7 @@ Detailed information can be found in our survey paper.
 
 #### Step-level Feedback
 
-- **Aggregation**
+- #### **Aggregation**
   
 |Title | Venue | Main Image | Paper|
 | :--- | :--: | :---: | :---: |
