@@ -64,7 +64,7 @@ Detailed information can be found in our [survey paper](https://arxiv.org/pdf/25
 | :--- | :--: | :---: | :---: |
 |Deductive Beam Search: Decoding Deducible Rationale for Chain-of-Thought Reasoning| COLM 2024 | <img width="1200" alt="image" src="images/search/deductive.png"> | [Link](https://openreview.net/pdf?id=S1XnUsqwr7)|
 |MindStar: Enhancing Math Reasoning in Pre-trained LLMs at Inference Time| Arxiv 2024 | <img width="1200" alt="image" src="images/search/mindstar.png"> | [Link](https://arxiv.org/pdf/2405.16265)|
-|No Train Still Gain. Unleash Mathematical Reasoning of Large Language Models with Monte Carlo Tree Search Guided by Energy Function| COLM 2024 | <img width="1200" alt="image" src="images/search/no.png"> | [Link](https://openreview.net/pdf?id=S1XnUsqwr7)|
+|No Train Still Gain. Unleash Mathematical Reasoning of Large Language Models with Monte Carlo Tree Search Guided by Energy Function| Arxiv 2023 | <img width="1200" alt="image" src="images/search/no.png"> | [Link](https://openreview.net/pdf?id=S1XnUsqwr7)|
 |Let's Reward Step by Step: Step-Level Reward Model as the Navigators for Reasoning| Arxiv 2023 | <img width="1200" alt="image" src="images/search/lets.png"> | [Link](https://arxiv.org/pdf/2310.10080)|
 |Token-Supervised Value Models for Enhancing Mathematical Problem-Solving Capabilities of Large Language Models| ICLR 2025 | <img width="1200" alt="image" src="images/search/token-supervised.png"> | [Link](https://openreview.net/pdf?id=6HcnC3pPkp)|
 |GRACE: Discriminator-Guided Chain-of-Thought Reasoning| EMNLP 2023 | <img width="1200" alt="image" src="images/search/grace.png"> | [Link](https://aclanthology.org/2023.findings-emnlp.1022.pdf)|
@@ -73,3 +73,57 @@ Detailed information can be found in our [survey paper](https://arxiv.org/pdf/25
 |Ensembling Large Language Models with Process Reward-Guided Tree Search for Better Complex Reasoning| Arxiv 2024 | <img width="1200" alt="image" src="images/search/ensembling.png"> | [Link](https://arxiv.org/pdf/2412.15797)|
 |AlphaMath Almost Zero: Process Supervision without Process| NeurIPS 2024 | <img width="1200" alt="image" src="images/search/alphamath.png"> | [Link](https://arxiv.org/pdf/2405.03553)|
 |Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters| Arxiv 2024 | <img width="1200" alt="image" src="images/search/scaling.png"> | [Link](https://arxiv.org/pdf/2408.03314)|
+
+- #### **Refinement**
+  
+|Title | Venue | Main Image | Paper|
+| :--- | :--: | :---: | :---: |
+|Learning From Mistakes Makes LLM Better Reasoner| Arxiv 2023 | <img width="1200" alt="image" src="images/refinement/learning.png"> | [Link](https://arxiv.org/pdf/2310.20689)|
+|Learning Planning-based Reasoning via Trajectories Collection and Process Reward Synthesizing| EMNLP 2024 | <img width="1200" alt="image" src="images/refinement/planning-based.png"> | [Link](https://aclanthology.org/2024.emnlp-main.20.pdf)|
+|Step-DPO: Step-wise Preference Optimization for Long-chain Reasoning of LLMs| Arxiv 2024 | <img width="1200" alt="image" src="images/refinement/step-dpo.png"> | [Link](https://arxiv.org/pdf/2406.18629)|
+|Improving Multi-Step Reasoning Abilities of Large Language Models with Direct Advantage Policy Optimization| Arxiv 2024 | <img width="1200" alt="image" src="images/refinement/improving.png"> | [Link](https://arxiv.org/pdf/2412.18279)|
+|Enhancing Mathematical Reasoning in LLMs by Stepwise Correction| Arxiv 2024 | <img width="1200" alt="image" src="images/refinement/enhancing.png"> | [Link](https://arxiv.org/pdf/2410.12934)|
+|$`LM^2`$: A Simple Society of Language Models Solves Complex Reasoning| EMNLP 2024 | <img width="1200" alt="image" src="images/refinement/simple.png"> | [Link](https://aclanthology.org/2024.emnlp-main.920.pdf)|
+|GLoRe: When, Where, and How to Improve LLM Reasoning via Global and Local Refinements| Arxiv 2024 | <img width="1200" alt="image" src="images/refinement/glore.png"> | [Link](https://arxiv.org/pdf/2402.10963)|
+|REFINER: Reasoning Feedback on Intermediate Representations| EACL 2024 | <img width="1200" alt="image" src="images/refinement/refiner.png"> | [Link](https://aclanthology.org/2024.eacl-long.67.pdf)|
+|$`ReST-MCTS^*`$: LLM Self-Training via Process Reward Guided Tree Search| NeurIPS 2024 | <img width="1200" alt="image" src="images/refinement/rest-mcts.png"> | [Link](https://openreview.net/pdf?id=8rcFOqEud5)|
+|On Designing Effective RL Reward at Training Time for LLM Reasoning| Arxiv 2024 | <img width="1200" alt="image" src="images/refinement/on.png"> | [Link](https://arxiv.org/pdf/2410.15115)|
+|BackMATH: Towards Backward Reasoning for Solving Math Problems Step by Step| COLING 2025 | <img width="1200" alt="image" src="images/refinement/backmath.png"> | [Link](https://aclanthology.org/2025.coling-industry.40.pdf)|
+
+---
+
+#### Outcome-level Feedback
+
+- #### **Discriminative Outcome Reward Model**
+  
+|Title | Venue | Main Image | Paper|
+| :--- | :--: | :---: | :---: |
+|Training Verifiers to Solve Math Word Problems| Arxiv 2021 | <img width="1200" alt="image" src="images/discriminative/training.png"> | [Link](https://arxiv.org/pdf/2110.14168) |
+|TinyGSM: Achieving > 80% on GSM8k with Small Language Models| Arxiv 2023 | <img width="1200" alt="image" src="images/discriminative/tinygsm.png"> | [Link](https://arxiv.org/pdf/2312.09241) |
+|V-STaR: Training Verifiers for Self-Taught Reasoners| COLM 2024 | <img width="1200" alt="image" src="images/discriminative/v-star.png"> | [Link](https://arxiv.org/pdf/2402.06457) |
+|Rationale-Aware Answer Verification by Pairwise Self-Evaluation| EMNLP 2024 | <img width="1200" alt="image" src="images/discriminative/rationale-aware.png"> | [Link](https://aclanthology.org/2024.emnlp-main.905.pdf) |
+|OVM, Outcome-supervised Value Models for Planning in Mathematical Reasoning| NAACL 2024 | <img width="1200" alt="image" src="images/discriminative/ovm.png"> | [Link](https://aclanthology.org/2024.findings-naacl.55.pdf) |
+|Large Language Monkeys: Scaling Inference Compute with Repeated Sampling| Arxiv 2024 | <img width="1200" alt="image" src="images/discriminative/large.png"> | [Link](https://arxiv.org/pdf/2407.21787) |
+|Alphazero-like Tree-Search can Guide Large Language Model Decoding and Training| Arxiv 2024 | <img width="1200" alt="image" src="images/discriminative/alphazero-like.png"> | [Link](https://arxiv.org/pdf/2309.17179) |
+|GraphReason: Enhancing Reasoning Capabilities of Large Language Models through A Graph-Based Verification Approach| NLRSE 2024 | <img width="1200" alt="image" src="images/discriminative/graphreason.png"> | [Link](https://aclanthology.org/2024.nlrse-1.1.pdf) |
+
+- #### **Generative Outcome Reward Model**
+  
+|Title | Venue | Main Image | Paper|
+| :--- | :--: | :---: | :---: |
+|Generative Verifiers: Reward Modeling as Next-Token Prediction| NeurIPS 2024 | <img width="1200" alt="image" src="images/generative/generative.png"> | [Link](https://openreview.net/pdf?id=CxHRoTLmPX) |
+|Enhancing LLM Reasoning with Reward-guided Tree Search| Arxiv 2024 | <img width="1200" alt="image" src="images/generative/enhancing.png"> | [Link](https://arxiv.org/pdf/2411.11694) |
+
+- #### **Rule-based**
+  
+|Title | Venue | Main Image | Paper|
+| :--- | :--: | :---: | :---: |
+|DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models| Arxiv 2024 | <img width="1200" alt="image" src="images/rule-based/deepseekmath.png"> | [Link](https://arxiv.org/pdf/2402.03300) |
+|DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning| Arxiv 2025 | <img width="1200" alt="image" src="images/rule-based/deepseekr1.png"> | [Link](https://arxiv.org/pdf/2501.12948) |
+
+#### Step- and Outcome-level Feedback
+
+|Title | Venue | Main Image | Paper|
+| :--- | :--: | :---: | :---: |
+| Solving Math Word Problems via Cooperative Reasoning induced Language Models | ACL 2023 | <img width="1200" alt="image" src="images/stepandoutcome/solving.png"> | [Link](https://aclanthology.org/2023.acl-long.245.pdf) |
+| Rewarding Progress: Scaling Automated Process Verifiers for LLM Reasoning | ICLR 2025 | <img width="1200" alt="image" src="images/stepandoutcome/rewarding.png"> | [Link](https://arxiv.org/pdf/2410.08146)
